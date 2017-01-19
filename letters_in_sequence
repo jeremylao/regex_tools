@@ -1,0 +1,8 @@
+RegEx expression to identify words with specific letters in a specific sequence:
+
+"[Ss][^KkIi]*[Kk][^SsIi]*[Ii][^SsKk]*"
+
+will match words containing 'ski' in that order
+
+
+References: *http://stackoverflow.com/questions/25090815/regex-to-match-vowels-in-order-a-e-i-o-u
